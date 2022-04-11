@@ -8,7 +8,7 @@ Nothing much
 
 ```bash
 docker build --no-cache -t hello-world .
-docker run -it -e PORT=8085 -e INSTANCE_ID=some-text -p 8085:8085 novalagung/hello-world
+docker run -it -e PORT=8085 -e INSTANCE_ID=some-text -p 8085:8085 anan/hello-world
 ```
 
 #### Windows (non-docker)
